@@ -153,6 +153,14 @@
         scrollTop: $("#main").offset().top
       }, 0);
     });
+     $('#closeBtn').click(function() {
+      $('#snippet').load('snippets/home.html', function() {
+        window.location.hash = '';
+      });
+      $('html, body').animate({
+        scrollTop: $("#main").offset().top
+      }, 0);
+    });
     $(document).ready(function() {
       $('html, body').animate({
         scrollTop: $("#main").offset().top
