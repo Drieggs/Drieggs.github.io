@@ -155,7 +155,7 @@
     });
      $('#closeBtn').click(function() {
       $('#snippet').load('snippets/home.html', function() {
-        window.location.hash = '';
+        window.location.hash = 'home';
       });
       $('html, body').animate({
         scrollTop: $("#main").offset().top
