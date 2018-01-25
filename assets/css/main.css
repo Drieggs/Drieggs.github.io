@@ -1974,8 +1974,11 @@
 
 /* Image */
 	.pic_thumb{
-		height: 200px;
+		height: 220px;
 		overflow: hidden;
+	}
+	.key {
+		height:250px;
 	}
 	.image {
 		border-radius: 0.35em;
