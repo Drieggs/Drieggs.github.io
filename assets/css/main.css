@@ -2461,7 +2461,7 @@
 /* Header */
 
 	#header {
-		background-color: #1f1815;
+		background-color: #49bf9d;
 		background-attachment: scroll,								fixed;
 		background-image: url("images/overlay.png"), url("/images/bg.png");
 		background-position: top left,							top left;
@@ -2474,7 +2474,7 @@
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 35%;
+		width: 30%;
 	}
 
 		#header strong, #header b {
@@ -2493,6 +2493,7 @@
 		#header .image.avatar {
 			margin: 0 0 1em 0;
 			width: 6.25em;
+			box-shadow: 10px 10px 2px black;
 		}
 
 /* Line Break Hr */
